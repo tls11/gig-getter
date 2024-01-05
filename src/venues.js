@@ -1,0 +1,145 @@
+const venues = [
+  {
+    name: 'Starry Plough',
+    email: 'booking@thestarryplough.com',
+    bookingURL: null,
+    played: false,
+  },
+  {
+    name: 'Ivy Room',
+    email: 'booking@ivyroom.com',
+    bookingURL: null,
+    played: false,
+  },
+  {
+    name: 'Freight and Salvage',
+    email: 'peter@freightandsalvage.org',
+    bookingURL: null,
+    played: false,
+  },
+  {
+    name: 'CornerStone',
+    email: 'bookings.cornerstoneberkeley@gmail.com',
+    bookingURL: null,
+    played: false,
+  },
+  {
+    name: 'Golden Bull',
+    email: null,
+    bookingURL: 'http://thegoldenbullbar.com/',
+    played: false,
+  },
+  {
+    name: "Eli's Mile High Club",
+    email: 'elismhcbooking@gmail.com',
+    bookingURL: null,
+    played: false,
+  },
+  {
+    name: 'Cafe Van Kleef',
+    email: null,
+    bookingURL: null,
+    played: false,
+  },
+  {
+    name: 'The Uptown',
+    email: null,
+    bookingURL: 'http://www.uptownnightclub.com/booking/',
+    played: false,
+  },
+  {
+    name: 'Legionaire Saloon',
+    email: null,
+    bookingURL: 'https://legionnairesaloon.com/booking-your-band',
+    played: false,
+  },
+  // {
+  //   name: 'Bottom of the Hill',
+  //   email: 'booking@bottomofthehill.com',
+  //   bookingURL: null,
+  //   played: false,
+  // },
+  {
+    name: 'Brick and Mortar',
+    email: 'info@foghornentmt.com',
+    bookingURL: null,
+    played: false,
+  },
+  {
+    name: 'Elbo Room',
+    email: 'mattshapiro@mac.com',
+    bookingURL: null,
+    played: false,
+  },
+  {
+    name: 'Boom Boom Room',
+    email: 'mail@boomboomblues.com',
+    bookingURL: null,
+    played: false,
+  },
+  // {
+  //   name: 'Amnesia',
+  //   email: 'music@amnesiathebar.com',
+  //   bookingURL: null,
+  //   played: false,
+  // },
+  {
+    name: 'Hotel Utah',
+    email: null,
+    bookingURL: 'http://www.hotelutah.com/booking',
+    played: false,
+  },
+  {
+    name: 'Rickshaw Stop',
+    email: null,
+    bookingURL: 'http://www.rickshawstop.com/contact/',
+    played: false,
+  },
+  // {
+  //   name: 'Thee Parkside',
+  //   email: 'dinoandluigi@gmail.com',
+  //   bookingURL: null,
+  //   played: false,
+  // },
+  {
+    name: 'Revolution Cafe',
+    email: null,
+    bookingURL: 'http://www.revolutioncafesf.com/contact/',
+    played: false,
+  },
+  // {
+  //   name: 'El Rio',
+  //   email: 'elriosflive@gmail.com',
+  //   bookingURL: null,
+  //   played: true,
+  // },
+  {
+    name: 'Neck of the Woods',
+    email: 'booking@neckofthewoodssf.com',
+    bookingURL: null,
+    played: false,
+  },
+  {
+    name: 'The Stork',
+    email: 'storkbooking@gmail.com',
+    contact: 'Laura',
+    bookingURL: null,
+    played: true,
+  },
+  {
+    name: "Toot's Tavern",
+    email: 'tootstavern@gmail.com',
+    bookingURL: null,
+    played: true,
+  },
+  {
+    name: 'Federation Brewery',
+    email: 'beer@federationbrewing.com',
+    bookingURL: null,
+    played: true,
+  },
+];
+
+module.exports = {
+  venues,
+};

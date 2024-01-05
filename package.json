@@ -1,0 +1,16 @@
+{
+  "name": "gig-getter",
+  "version": "0.0.1",
+  "description": "Does all the hard work of contacting clubs for you",
+  "main": "gig-getter.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.4.19",
+    "nodemailer": "^5.1.1",
+    "puppeteer": "^1.13.0"
+  }
+}
